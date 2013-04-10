@@ -57,41 +57,24 @@
     </head>
     <body>
 
-
+<!-- HEADER -->
         <div class="container-narrow">
 
           <div class="masthead">
             <ul class="nav nav-pills pull-right">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="the-list.html">The List</a></li>
-              <li><a href="examples.html">Examples</a></li>
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#list">The List</a></li>
+              <li><a href="#examples">Examples</a></li>
             </ul>
             <h3 class="muted">One Page App</h3>
           </div>
-
+<!-- END HEADER -->
           <hr>
-
-          <div class="jumbotron">
-            <h1>Common Windows &amp; Mac fonts</h1>
-            <p class="lead">A list of common fonts to all versions of Windows and their Mac substitutes, referred sometimes as "browser safe fonts".</p>
-            <a class="btn btn-large btn-success" href="the-list.html">Obligatory Button</a>
+          <div class="content">
+          
           </div>
-
           <hr>
-
-            <div class="row-fluid">
-            <div class="span12">
-                <h2>Introduction</h2>
-                <small>Warning: The grammar on this page is atrocious</small>
-                <p>If you are new to web design, maybe you are thinking: "Why I have to limit to that small set of fonts? I have a large collection of nice fonts in my computer". Well, as seasoned web designers already know, browsers can use only the fonts installed in each computer, so it means that every visitor of your web page needs to have all the fonts you want to use installed in his/her computer. Of course, different people will have different fonts installed, and thus come the need of a standard set of fonts. Fortunately, CSS allows set several values for the font-family property, which eases the task a bit.</p>
-
-                <p>If you want to know how the fonts are displayed in other OS's or browsers than yours, after the table you can find several screen shots of this page in different systems and browsers. Also, you can take a look to the list of the default fonts included with each version of Windows.</p>                
-            </div>
-                
-            </div>
-
-          <hr>
-
+<!-- FOOTER -->
           <div class="footer">
             <p class="notes"><br>The Mac font list was obtained from the <a class="external" target="_blank" href="http://www.webbedenvironments.com/css_dhtml_ajax/downloads/BrowserSafeFonts.pdf">Browser Safe Fonts
 PDF</a> of <a class="external" target="_blank" href="http://www.webbedenvironments.com/dhtml/">webbedEnvironments</a>
@@ -110,13 +93,15 @@ of fonts in Mac OS X</a> of the <a class="external" target="_blank" href="http:/
           </div>
 
         </div> <!-- /container -->
-
+<!-- END FOOTER -->
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
         <script src="js/bootstrap.min.js"></script>
-
-
+        <script src="js/vendor/mustache.js"></script>
+        <script src="js/vendor/_.js"></script>
+        <script src="js/vendor/backbone.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
